@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Tasbeeqa</title>
+<meta name="description" content="Privacy policy for Tasbeeqa, an offline tasbeeh counter app for Android. The app collects no data and requests no permissions.">
+<meta name="color-scheme" content="light dark">
+<style>
+  :root {
+    --bg: #fbf8f0;
+    --surface: #ffffff;
+    --text: #17201d;
+    --muted: #4a5b55;
+    --accent: #0f3d33;
+    --gold: #8a6d0b;
+    --line: #e3dcc8;
+    --chip: #f3e2a0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0a2a23;
+      --surface: #0f3d33;
+      --text: #f5f1e6;
+      --muted: #c3cfc9;
+      --accent: #d4af37;
+      --gold: #d4af37;
+      --line: #25584a;
+      --chip: #17503f;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  header {
+    background: #0f3d33;
+    color: #f5f1e6;
+    padding: 48px 20px 40px;
+    text-align: center;
+    border-bottom: 4px solid #d4af37;
+  }
+  .beads { display: flex; justify-content: center; gap: 8px; margin-bottom: 18px; }
+  .beads span { width: 12px; height: 12px; border-radius: 50%; background: #d4af37; }
+  .beads span:last-child { background: #4e7a6c; }
+  header h1 { margin: 0 0 6px; font-size: clamp(28px, 6vw, 40px); letter-spacing: .3px; }
+  header p { margin: 0; color: #d9e2dd; }
+  main { max-width: 760px; margin: 0 auto; padding: 28px 20px 64px; }
+  .summary {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--gold);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin-bottom: 28px;
+  }
+  .summary h2 { margin: 0 0 10px; font-size: 20px; border: 0; padding: 0; }
+  .summary ul { margin: 0; padding-left: 22px; }
+  .summary li { margin: 4px 0; }
+  nav {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 16px 22px;
+    margin-bottom: 8px;
+  }
+  nav strong { display: block; margin-bottom: 6px; }
+  nav ol { margin: 0; padding-left: 22px; columns: 2 220px; }
+  nav a { color: var(--accent); text-decoration: none; }
+  nav a:hover, nav a:focus { text-decoration: underline; }
+  section { padding-top: 12px; }
+  h2 {
+    font-size: 22px;
+    margin: 32px 0 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--line);
+    color: var(--accent);
+  }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); font-size: 15px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 16px; }
+  th, td { text-align: left; padding: 10px 12px; border: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--chip); }
+  .table-wrap { overflow-x: auto; }
+  code { background: var(--chip); padding: 1px 6px; border-radius: 6px; font-size: .92em; }
+  a { color: var(--accent); }
+  footer { text-align: center; color: var(--muted); font-size: 14px; padding: 0 20px 40px; }
+  a:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; border-radius: 4px; }
+  @media print {
+    header { background: none; color: #000; border-bottom: 2px solid #000; }
+    header p { color: #000; }
+    body { background: #fff; color: #000; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="beads" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <h1>Tasbeeqa Privacy Policy</h1>
+  <p>Last updated: 10 November 2026</p>
+</header>
+
+<main>
+
+  <div class="summary" role="note">
+    <h2>In short</h2>
+    <ul>
+      <li>Tasbeeqa does not collect, store on a server, or share any personal data.</li>
+      <li>The app asks for no Android permissions and does not need the internet.</li>
+      <li>Your counts, dhikr and settings stay on your own device.</li>
+      <li>There are no accounts, analytics, advertising or third-party services.</li>
+    </ul>
+  </div>
+
+  <nav aria-label="Contents">
+    <strong>Contents</strong>
+    <ol>
+      <li><a href="#about">About this policy</a></li>
+      <li><a href="#collect">Information we collect</a></li>
+      <li><a href="#local">Data stored on your device</a></li>
+      <li><a href="#permissions">Permissions</a></li>
+      <li><a href="#third">Third parties</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#control">Your control and deletion</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <section id="about">
+    <h2>1. About this policy</h2>
+    <p>
+      Tasbeeqa (package name <code>com.lukaboy.tasbeeqa</code>) is a tasbeeh and dhikr counter for Android,
+      published by <strong>[DEVELOPER NAME]</strong>. This policy explains what the app does with information.
+      It applies to the app only.
+    </p>
+  </section>
+
+  <section id="collect">
+    <h2>2. Information we collect</h2>
+    <p>
+      We do not collect any personal information. The developer does not receive your name, email address,
+      location, contacts, photos, device identifiers, advertising identifiers or usage data. The app has no
+      sign-up, no login and no internet access, so nothing can be sent from the app to the developer or to anyone else.
+    </p>
+  </section>
+
+  <section id="local">
+    <h2>3. Data stored on your device</h2>
+    <p>To work, the app keeps the following information in its private storage on your device only:</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Purpose</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Dhikr list, including any custom dhikr you add (name, Arabic text, target)</td><td>To show and count your dhikr</td></tr>
+          <tr><td>Current count and daily counts</td><td>To show your counter, daily total, 7-day chart, streak and lifetime counts</td></tr>
+          <tr><td>Settings (theme, haptic feedback, volume button counting, keep screen on, default target)</td><td>To remember your choices</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      This data is not uploaded, not backed up to any cloud service by the app, and not readable by other apps
+      under normal Android security rules. App backup is turned off.
+    </p>
+  </section>
+
+  <section id="permissions">
+    <h2>4. Permissions</h2>
+    <p>Tasbeeqa requests no Android permissions. In particular:</p>
+    <ul>
+      <li>Haptic feedback uses the standard system touch feedback, so no vibration permission is needed.</li>
+      <li>Counting with the volume buttons works only while the app is open and in the foreground.</li>
+      <li>Keeping the screen on uses a window setting that needs no permission.</li>
+      <li>The app does not access your files, camera, microphone, contacts, location or network.</li>
+    </ul>
+  </section>
+
+  <section id="third">
+    <h2>5. Third parties</h2>
+    <p>
+      The app contains no advertising, analytics, crash-reporting or social media code, and it does not share
+      data with any third party. The Arabic text font (Amiri) is bundled inside the app and licensed under the
+      SIL Open Font License. It is not downloaded from the internet.
+    </p>
+  </section>
+
+  <section id="children">
+    <h2>6. Children</h2>
+    <p>
+      Because the app collects no information from anyone, it collects none from children either.
+      The app contains no ads, purchases or links that lead outside the app.
+    </p>
+  </section>
+
+  <section id="control">
+    <h2>7. Your control and deletion</h2>
+    <p>
+      You are in control of all data in the app. You can reset a counter or delete a custom dhikr inside the app.
+      To remove everything, clear the app's storage in Android Settings &rarr; Apps &rarr; Tasbeeqa &rarr; Storage,
+      or uninstall the app. Because the developer holds no copy of your data, there is nothing to request or delete from us.
+    </p>
+  </section>
+
+  <section id="security">
+    <h2>8. Security</h2>
+    <p>
+      Since data never leaves your device, it is protected by your device's own security, such as the screen lock
+      and Android app sandboxing. Please keep your device updated and locked.
+    </p>
+  </section>
+
+  <section id="changes">
+    <h2>9. Changes to this policy</h2>
+    <p>
+      If the app's data practices ever change, this page will be updated and the date at the top will change.
+      Any new version of the app that changes how data is handled will be reflected here before release.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>10. Contact</h2>
+    <p>
+      Questions about this policy can be sent to
+      <a href="mailto: lukaboyinc5@gmail.com">lukaboyinc5@gmail.com</a>.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 Lukaboy INC . Tasbeeqa is an independent app and is not affiliated with any organization.
+</footer>
+
+</body>
+</html>
